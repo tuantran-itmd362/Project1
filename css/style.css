@@ -1,0 +1,50 @@
+/*tablet and laptop*/
+@media screen and (min-width: 480px) {
+  h1 {
+      font-size: 50px;
+      padding-top:1%;
+      padding-bottom:2%;
+      text-align: center;
+  }
+  
+  #form_body {
+      background-color: #F2F3F4;
+      text-align: center;
+  }
+  input {
+      width: 50%;
+      padding: 10px 15px;
+      margin: 10px;
+      display: inline-block;
+  }
+  #sign_up{
+      background-color: #566573;
+      display: inline-block;
+      font-size: 15px;
+  }
+}
+  
+/*For mobile*/
+@media only screen and (max-width: 480px) {
+  h1 {
+      font-size: 50px;
+      padding-top:4%;
+      padding-bottom:2%;
+      text-align: center;
+  }
+  #form_body {
+      background-color: #F2F3F4;
+      text-align: center;
+  }
+  input {
+      width: 40%;
+      padding: 10px 20px;
+      margin: 10px;
+      display: inline-block;
+  }
+  #sign_up{
+      background-color: #566573;
+      display: inline-block;
+      font-size: 10px;
+  }
+}
