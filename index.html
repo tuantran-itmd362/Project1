@@ -15,7 +15,7 @@
                 <div>
                     <label>First Name:</label>
                 </div>
-                <input type="text" name="firstname" placeholder = "Enter first name">
+                <input type="text" name="firstname" placeholder = "Enter first name" required>
                 
                 <div>
                     <label>Middle Name:</label>
@@ -25,22 +25,22 @@
                 <div>
                     <label>Last Name:</label>
                 </div>
-                <input type="text" name="lastname" placeholder = "Enter last name">
+                <input type="text" name="lastname" placeholder = "Enter last name" required>
                 
                 <div>
                     <label>Date of Birth</label>
                 </div>
-                <input type="text" name="dob" placeholder = "MM/DD/YYYY">
+                <input type="text" name="dob" placeholder = "MM/DD/YYYY" required>
                 
                 <div>
                     <label>Email:</label>
                 </div>
-                <input type="email" name="email_addr" placeholder = "Enter email">
+                <input type="email" name="email_addr" placeholder = "Enter email" required>
                 
                 <div>
                     <label>Phone Number:</label>
                 </div>
-                <input type="tel" name="phoneno" placeholder = "xxx-xxx-xxxx">
+                <input type="tel" name="phoneno" pattern="[0-9]{10}|[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder = "xxx-xxx-xxxx" required>
                 
                 <div>
                     <input type = "submit" value="Sign me up!" id = "sign_up">
