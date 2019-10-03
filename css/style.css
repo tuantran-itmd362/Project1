@@ -5,11 +5,14 @@
     padding-top:1%;
     padding-bottom:2%;
     text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    letter-spacing: 1px;
   }
   #form_body {
     text-align: center;
     background: url('../book.jpg');
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    letter-spacing: 0.75px;
     color:#1C2833;
     font-size:1em;
     font-weight: bold;
@@ -37,12 +40,15 @@
     padding-top:12%;
     padding-bottom:2%;
     text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    letter-spacing: 1px;
   }
   #form_body {
     background-color: #F2F3F4;
     background: url('../book.jpg');
     text-align: center;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    letter-spacing: 0.75px;
     color:#1C2833;
     font-size:1.25em;
     font-weight: bold;
