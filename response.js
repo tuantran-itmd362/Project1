@@ -8,7 +8,8 @@ function Alert() {
     //  return false;
     //}
     //else{
-    alert("You've successfully signed up! Ready to adventure into a world of knowledge? We'll be sending out meetups date soon!");
+    var phoneno = document.getElementById("phone").value;
+    alert("You've successfully signed up! Ready to adventure into a world of knowledge? We'll be sending out meetups time "+phoneno);
     //}
     return false;
 }
