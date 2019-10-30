@@ -1,87 +1,73 @@
 /*mobile*/
-@media only screen and (max-width:480px) {
-  h1 {
-    font-size: 30px;
-    padding-top:12%;
-    padding-bottom:2%;
-    text-align: center;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    letter-spacing: 1px;
-  }
-  #form_body {
-    background-color: #F2F3F4;
-    background: url('../book.jpg');
-    text-align: center;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    letter-spacing: 0.75px;
-    color:#212F3D;
-    font-size:1.25em;
-    font-weight: bold;
-  }
-  input {
-    width: 60%;
-    padding: 10px 20px;
-    margin: 10px;
-    display: inline-block;
-    border: solid #F2F3F4;
-    border-radius: 15px 15px 15px 15px;
-  }
-  #sign_up{
-    background-color: #566573;
-    display: inline-block;
-    font-size: 20px;
-  }
+h1 {
+  font-size: 30px;
+  padding-top:12%;
+  padding-bottom:2%;
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+#form_body {
+  background-color: #F2F3F4;
+  background: url('../book.jpg');
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  letter-spacing: 0.75px;
+  color:#212F3D;
+  font-size:1.25em;
+  font-weight: bold;
+}
+input {
+  width: 60%;
+  padding: 10px 20px;
+  margin: 10px;
+  display: inline-block;
+  border: solid #F2F3F4;
+  border-radius: 15px 15px 15px 15px;
+}
+#sign_up{
+background-color: #566573;
+display: inline-block;
+font-size: 20px;
 }
 
 /*tablet*/
 @media only screen and (min-width:480px) {
   h1 {
-    font-size: 30px;
-    padding-top:10%;
+    font-size: 40px;
+    padding-top:5%;
     padding-bottom:2%;
     text-align: center;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     letter-spacing: 1px;
   }
   #form_body {
     background-color: #F2F3F4;
     background: url('../book.jpg');
     text-align: center;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     letter-spacing: 0.75px;
     color:#212F3D;
-    font-size:1.25em;
+    font-size:1.15em;
     font-weight: bold;
-  }
-  input {
-    width: 60%;
-    padding: 10px 20px;
-    margin: 10px;
-    display: inline-block;
-    border: solid #F2F3F4;
-    border-radius: 15px 15px 15px 15px;
   }
   #sign_up{
     background-color: #566573;
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 /*laptop*/
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 50px;
+    font-size: 55px;
     padding-top:1%;
     padding-bottom:2%;
     text-align: center;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
   }
   #form_body {
     text-align: center;
     background: url('../book.jpg');
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     letter-spacing: 0.75px;
     color:#212F3D;
     font-size:1.1em;
@@ -99,6 +85,6 @@
   #sign_up{
     background-color: #566573;
     display: inline-block;
-    font-size: 15px;
+    font-size: 20px;
   }
 }
